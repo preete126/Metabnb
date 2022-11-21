@@ -1,0 +1,12 @@
+.meta{
+    background-image: -webkit-repeating-linear-gradient(270deg, purple, pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid red;
+}
+.Menu{
+    font-family: sans-serif;
+}
+.nav{
+    align-items: flex-end;
+}

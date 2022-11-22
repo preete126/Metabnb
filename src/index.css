@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  padding: 10px 30px 10px 30px;
+body::-webkit-scrollbar {
+  width: 0.2em;
+  margin-right: 20px;
+  /* font-family: 'Courier New', Courier, monospace; */
 }
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+

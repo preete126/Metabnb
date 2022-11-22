@@ -1,12 +1,12 @@
 .meta{
-    background-image: -webkit-repeating-linear-gradient(270deg, purple, pink);
+    background-image: -webkit-repeating-linear-gradient(360deg, #BA3C77, #743DC5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border: 1px solid red;
+  
 }
 .Menu{
     font-family: sans-serif;
 }
-.nav{
+.nav, .meta{
     align-items: flex-end;
 }

@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body{
-  margin: 0;
+  padding: 10px 30px 10px 30px;
 }

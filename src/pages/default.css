@@ -10,3 +10,6 @@
 .nav, .meta{
     align-items: flex-end;
 }
+.icons{
+    align-items: center;
+}

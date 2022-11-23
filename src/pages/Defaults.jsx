@@ -1,24 +1,69 @@
 import home from '../assets/home.png'
+import home1 from '../assets/home (1).png'
 import './default.css'
-function Defaults({children}) {
-   
+import face from '../assets/face.png'
+import twitter from '../assets/twitter.png'
+import instagram from '../assets/instagram.png'
+function Defaults({ children }) {
+
     return (
         <>
             <nav className='d-flex tw-justify-between nav p-4 ps-5 pe-5 '>
                 <div className='d-flex tw-text-4xl tw-font-bold  meta'>
-                   <img src={home} width={50} alt="" /> Metabnb
+                    <img src={home} width={50} alt="" /> Metabnb
                 </div>
                 <div className='d-flex gap-5 tw-text-xl Menu' >
-                    <div>Home</div>
-                    <div>Place to stay</div>
-                    <div>NFTs</div>
-                    <div>Community</div>
+                    <a href='#' className='text-decoration-none text-dark'>Home</a >
+                    <a href='#' className='text-decoration-none text-dark'>Place to stay</a >
+                    <a href='#' className='text-decoration-none text-dark'>NFTs</a >
+                    <a href='#' className='text-decoration-none text-dark'>Community</a >
                 </div>
                 <div className=' tw-text-base Menu'>
                     <button className='btn btn-primary '>Connect wallet</button>
                 </div>
             </nav>
             <div>{children}</div>
+            <footer className='px-5 d-flex tw-justify-between  text-white tw-bg-black tw-py-20'>
+                <div style={{ marginTop: "-0.7rem" }}>
+                    <div className='d-flex tw-text-4xl tw-font-bold nav '>
+                        <img src={home1} width={50} alt="" /> Metabnb
+                    </div>
+                    <div className='d-flex gap-5 icons py-5 mt-5'>
+                        <div> <img src={face} width={35} alt="" /></div>
+                        <div> <img src={instagram} width={23} alt="" /></div>
+                        <div> <img src={twitter} width={23} alt="" /></div>
+                        
+                    </div>
+                    <div className='tw-text-xs'>© 2022 Metabnb. Coded by Ismail Mubarokah</div>
+                </div>
+                <div>
+                    <strong className='fs-5 '><a href="#" className='text-white text-decoration-none'>Community</a></strong>
+                    <div className='d-flex tw-flex-col mt-4' style={{ lineHeight: "35px" }} >
+                        <a href='#' className='text-white text-decoration-none'>NFTs</a>
+                        <a href='#' className='text-white text-decoration-none'>Token</a>
+                        <a href='#' className='text-white text-decoration-none'>Landlords</a>
+                        <a href='#' className='text-white text-decoration-none'>Discord</a>
+                    </div>
+                </div>
+                <div>
+                    <strong className='fs-5 '><a href='#' className='text-white text-decoration-none'>Places</a></strong>
+                    <div className='d-flex tw-flex-col mt-4' style={{ lineHeight: "35px" }}>
+                        <a href='#' className='text-white text-decoration-none'>Castle</a>
+                        <a href='#' className='text-white text-decoration-none'>Farms</a>
+                        <a href='#' className='text-white text-decoration-none'>Beach</a>
+                        <a href='#' className='text-white text-decoration-none' >Learn more</a>
+                    </div>
+                </div>
+                <div>
+                    <strong className='fs-5'><a href='#' className='text-white text-decoration-none'>About Us</a></strong>
+                    <div className='d-flex tw-flex-col mt-4' style={{ lineHeight: "35px" }}>
+                        <a href='#' className='text-white text-decoration-none'>Roadmaps</a>
+                        <a href='#' className='text-white text-decoration-none'>Creators</a>
+                        <a href='#' className='text-white text-decoration-none'>Career</a>
+                        <a href='#' className='text-white text-decoration-none' >Contact Us</a>
+                    </div>
+                </div>
+            </footer>
         </>
     );
 }

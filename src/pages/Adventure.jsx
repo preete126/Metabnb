@@ -26,10 +26,10 @@ function Adventure() {
 
     return (
         <>
-            <main className=" d-flex flex-wrap gap-3 px-5 mb-5">
+            <main className=" d-flex flex-wrap gap-4 px-5 mb-5">
                 {
                     Home.map((value, index) =>
-                        <div className="card p-2 border border-2" key={index} style={{ width: "17.7rem",fontSize:"12px",fontFamily:"Verdana, Geneva, Tahoma, sans-serif" }}>
+                        <div className="card p-2 border border-2" key={index} style={{ width: "17.2rem",fontSize:"11px",fontFamily:"Verdana, Geneva, Tahoma, sans-serif" }}>
                             <div  style={{height:"200px"}}>
                             <img src={value.image }  className="card-img " alt="..." />
                             <div className="card-img-overlay text-end">

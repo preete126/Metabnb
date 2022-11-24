@@ -18,7 +18,7 @@ function Nfts() {
                     <div>
                         <img className="rounded-3" style={{ transform: "rotate(340deg)",marginTop:"-6rem" }} src={img2} width={"60%"} alt="" />
                     </div>
-                    <div  style={{marginTop:"-10rem", paddingLeft:"15rem"}}>
+                    <div  style={{marginTop:"-11rem", paddingLeft:"15rem"}}>
                         <img className="rounded-3 " style={{ transform: "rotate(350deg)" }} src={img3} width={"100%"} alt="" />
                     </div>
                 </main>

@@ -5,7 +5,7 @@
 body::-webkit-scrollbar {
   width: 0.2em;
   margin-right: 20px;
-  /* font-family: 'Courier New', Courier, monospace; */
+  background: radial-gradient(purple, pink);
 }
 
 body::-webkit-scrollbar-track {

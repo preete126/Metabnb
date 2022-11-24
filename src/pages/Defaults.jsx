@@ -19,7 +19,24 @@ function Defaults({ children }) {
                     <a href='#' className='text-decoration-none text-dark'>Community</a >
                 </div>
                 <div className=' tw-text-base Menu'>
-                    <button className='btn btn-primary '>Connect wallet</button>
+                    <button className='btn btn-primary ' data-toggle="modal" data-target="#staticBackdrop">Connect wallet</button>
+                   <div className="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdrop" aria-hidden="true">
+                     <div className="modal-dialog">
+                       <div className="modal-content">
+                         <div className="modal-header">
+                           <h5 className="modal-title" id="staticBackdropLabel">Modal title</h5>
+                           <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                             <span aria-hidden="true">&times;</span>
+                           </button>
+                         </div>
+                         <div className="modal-body">
+                           
+                         </div>
+                          
+                       </div>
+                     </div>
+                   </div>
+                   
                 </div>
             </nav>
             <div>{children}</div>
@@ -32,7 +49,7 @@ function Defaults({ children }) {
                         <div> <img src={face} width={35} alt="" /></div>
                         <div> <img src={instagram} width={23} alt="" /></div>
                         <div> <img src={twitter} width={23} alt="" /></div>
-                        
+
                     </div>
                     <div className='tw-text-xs'>© 2022 Metabnb. Coded by Ismail Mubarokah</div>
                 </div>

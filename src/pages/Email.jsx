@@ -1,7 +1,7 @@
 import Image1 from '../assets/1.jpg'
 import Image2 from '../assets/2.jpg'
 import Image3 from '../assets/4.jpg'
-import Image4 from '../assets/6.jpg'
+import Image4 from '../assets/7.jpg'
 import token from '../assets/token (2).png'
 import mask from '../assets/mask.png'
 import sea from '../assets/sea.png'
@@ -22,8 +22,8 @@ function Email() {
                 <div className=' tw-relative  ' style={{width:'550px'}} >
                     <img className='tw-rounded-3xl  tw-absolute ' style={{ top: "140px" }} src={Image1} width={"220px"} alt="" />
                     <img className='tw-rounded-3xl tw-absolute ' style={{ right: "0%", top: "50px" }} src={Image2} width={"220px"} alt="" />
-                    <img className='tw-rounded-3xl tw-absolute ' style={{ top: "320px" }} src={Image3} width={"220px"} alt="" />
-                    <img className='tw-rounded-3xl tw-absolute ' style={{ top: "230px", right: "0%" }} src={Image4} width={"220px"} alt="" />
+                    <img className='tw-rounded-3xl tw-absolute ' style={{ top: "345px" }} src={Image3} width={"220px"} alt="" />
+                    <img className='tw-rounded-3xl tw-absolute ' style={{ top: "260px", right: "0%" }} src={Image4} width={"220px"} alt="" />
                 </div>
             </section>
             <main className='bg-primary p-3 mt-5  d-flex tw-justify-around tw-text-white' style={{ fontFamily: "Arial, Helvetica, sans-serif", alignItems: "center" }}>

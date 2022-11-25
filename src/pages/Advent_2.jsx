@@ -1,17 +1,16 @@
 import { faHeart, faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
-import real1 from "../assets/D.jpg"
-import real2 from "../assets/3.jpg"
-import real3 from "../assets/A.jpg"
-import real4 from "../assets/B.jpg"
-import real5 from "../assets/N.jpg"
-import real6 from "../assets/T.jpg"
-import real7 from "../assets/L.jpg"
-import real8 from "../assets/O.jpg"
+import real1 from "../assets/I.jpg"
+import real2 from "../assets/G.jpg"
+import real3 from "../assets/J.jpg"
+import real4 from "../assets/H.jpg"
+import real5 from "../assets/C.jpg"
+import real6 from "../assets/F.jpg"
+import real7 from "../assets/K.jpg"
+import real8 from "../assets/M.jpg"
 
-
-function Adventure() {
+function Advent() {
     const [Home, setHome] = useState([
         { image: real1},
         { image: real2},
@@ -65,4 +64,4 @@ function Adventure() {
     );
 }
 
-export default Adventure;
+export default Advent;

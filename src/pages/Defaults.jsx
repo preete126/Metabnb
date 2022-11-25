@@ -4,6 +4,9 @@ import './default.css'
 import face from '../assets/face.png'
 import twitter from '../assets/twitter.png'
 import instagram from '../assets/instagram.png'
+import {Link} from "react-router-dom"
+
+
 function Defaults({ children }) {
 
     return (
@@ -14,12 +17,12 @@ function Defaults({ children }) {
                 </div>
                 <div className='d-flex gap-5 tw-text-xl Menu' >
                     <a href='#' className='text-decoration-none text-dark'>Home</a >
-                    <a href='#' className='text-decoration-none text-dark'>Place to stay</a >
+                    <Link to={"/places"} className='text-decoration-none text-dark'>Place to stay</Link >
                     <a href='#' className='text-decoration-none text-dark'>NFTs</a >
                     <a href='#' className='text-decoration-none text-dark'>Community</a >
                 </div>
                 <div className=' tw-text-base Menu'>
-                    <button className='btn btn-primary ' data-toggle="modal" data-target="#staticBackdrop">Connect wallet</button>
+                    <button className='btn btn-primary px-4 py-2' data-toggle="modal" data-target="#staticBackdrop">Connect wallet</button>
                    <div className="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdrop" aria-hidden="true">
                      <div className="modal-dialog">
                        <div className="modal-content">

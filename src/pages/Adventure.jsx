@@ -31,7 +31,7 @@ function Adventure() {
                 {
                     Home.map((value, index) =>
                         <div className="card px-2 pt-2 border border-2" key={index} style={{ width: "17.2rem",fontSize:"11px",fontFamily:"Verdana, Geneva, Tahoma, sans-serif" }}>
-                            <div  style={{height:"250px"}}>
+                            <div>
                             <img src={value.image }  className="card-img " alt="..." />
                             <div className="card-img-overlay text-end">
                                 <FontAwesomeIcon icon={faHeart} color="whitesmoke" size="xl"  />

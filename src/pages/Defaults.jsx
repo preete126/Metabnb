@@ -43,7 +43,7 @@ function Defaults({ children }) {
                 </div>
             </nav>
             <div>{children}</div>
-            <footer className='px-5 d-flex tw-justify-between  text-white tw-bg-black tw-py-20'>
+            <footer className='px-5 tw-flex tw-justify-between max-[670px]:tw-flex-col max-[670px]:tw-gap-5 text-white tw-bg-black tw-py-20'>
                 <div style={{ marginTop: "-0.7rem" }}>
                     <div className='d-flex tw-text-4xl tw-font-bold nav '>
                         <img src={home1} width={50} alt="" /> Metabnb
@@ -56,33 +56,35 @@ function Defaults({ children }) {
                     </div>
                     <div className='tw-text-xs'>© 2022 Metabnb. Coded by Ismail Mubarokah</div>
                 </div>
-                <div>
-                    <strong className='fs-5 '><a href="#" className='text-white text-decoration-none'>Community</a></strong>
+                <details>
+                    <summary className=' tw-font-semibold fs-5 '><a href="#" className='text-white text-decoration-none'>Community</a></summary>
                     <div className='d-flex tw-flex-col mt-4' style={{ lineHeight: "35px" }} >
                         <a href='#' className='text-white text-decoration-none'>NFTs</a>
                         <a href='#' className='text-white text-decoration-none'>Token</a>
                         <a href='#' className='text-white text-decoration-none'>Landlords</a>
                         <a href='#' className='text-white text-decoration-none'>Discord</a>
                     </div>
-                </div>
-                <div>
-                    <strong className='fs-5 '><a href='#' className='text-white text-decoration-none'>Places</a></strong>
+                </details>
+                <details>
+                    <summary className='tw-font-semibold fs-5 '><a href='#' className='text-white text-decoration-none'>Places</a></summary>
                     <div className='d-flex tw-flex-col mt-4' style={{ lineHeight: "35px" }}>
                         <a href='#' className='text-white text-decoration-none'>Castle</a>
                         <a href='#' className='text-white text-decoration-none'>Farms</a>
                         <a href='#' className='text-white text-decoration-none'>Beach</a>
                         <a href='#' className='text-white text-decoration-none' >Learn more</a>
                     </div>
-                </div>
-                <div>
-                    <strong className='fs-5'><a href='#' className='text-white text-decoration-none'>About Us</a></strong>
+                </details>
+                <details>
+                    <summary className='tw-font-semibold fs-5'><a href='#' className='text-white text-decoration-none'>About Us</a></summary>
                     <div className='d-flex tw-flex-col mt-4' style={{ lineHeight: "35px" }}>
                         <a href='#' className='text-white text-decoration-none'>Roadmaps</a>
                         <a href='#' className='text-white text-decoration-none'>Creators</a>
                         <a href='#' className='text-white text-decoration-none'>Career</a>
                         <a href='#' className='text-white text-decoration-none' >Contact Us</a>
                     </div>
-                </div>
+                </details>
+                
+                
             </footer>
         </>
     );

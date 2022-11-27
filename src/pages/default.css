@@ -58,7 +58,7 @@
         font-size: 30px !important;
     }
 }
-@media (max-width:768px) {
+@media (max-width:769px) {
     .fir, .sec{
         margin-top: 3rem !important;
     }

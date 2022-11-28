@@ -10,7 +10,7 @@ function Email() {
 
     return (
         <>
-            <section className='d-flex px-5 pb-4  tw-pt-10 max-[1030px]:tw-pt-0 max-md:tw-flex-col' style={{ fontFamily: "Calibri" }} >
+            <section className='d-flex tw-px-12 pb-4  tw-pt-10 max-[1030px]:tw-pt-0 max-md:tw-flex-col max-[973px]:tw-px-6' style={{ fontFamily: "Calibri" }} >
                 <main className='tw-pt-12 pb-4 '  >
                     <div className='tw-pt-8  tw-font-semibold tw-text-6xl max-[1030px]:tw-text-5xl  tw-text-zinc-700 max-[915px]:tw-text-4xl max-[915px]:tw-pr-16 max-md:tw-text-6xl max-md:tw-pr-0 ' style={{ lineHeight: "80px" }}>
                         Rent a <span className='text-primary ' >Place</span> away from <span className='text-primary' >Home</span> in the <span className='text-primary' >Metaverse</span>

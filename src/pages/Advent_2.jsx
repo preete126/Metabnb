@@ -26,10 +26,10 @@ function Advent() {
 
     return (
         <>
-            <main className=" d-flex flex-wrap gap-4 px-5 mb-5 tw-justify-center">
+             <main className=" d-flex flex-wrap tw-gap-6 tw-px-12 max-[973px]:tw-px-6 max-[843px]:tw-gap-3  mb-5 tw-justify-center">
                 {
                     Home.map((value, index) =>
-                        <div className="card px-2 pt-2 border border-2" key={index} style={{ width: "17.2rem",fontSize:"11px",fontFamily:"Verdana, Geneva, Tahoma, sans-serif" }}>
+                        <div className="card px-2 pt-2 border border-2  Adv" key={index} style={{ width: "17.2rem",fontSize:"11px",fontFamily:"Verdana, Geneva, Tahoma, sans-serif" }}>
                             <div>
                             <img src={value.image }  className="card-img " alt="..." />
                             <div className="card-img-overlay text-end">
@@ -38,15 +38,15 @@ function Advent() {
                             </div>
 
                             <div className="card-body " style={{paddingLeft:"0px",paddingRight:"0px"}}>
-                                <div className="card-title d-flex tw-justify-between">
+                                <div className="card-title tw-flex tw-justify-between   ">
                                    <p>Desert King</p>
                                    <strong>1MBT per night</strong>
                                 </div>
-                                <div className="card-subtitle d-flex tw-justify-between">
+                                <div className="card-subtitle tw-flex tw-justify-between  max-[415px]:tw-flex-wrap">
                                   <p>2345km away</p>
                                   <p>available for 2weeks stay</p>
                                 </div>
-                                <div className="mt-auto d-flex gap-2 ">
+                                <div className="mt-auto tw-flex gap-2  max-[415px]:tw-flex-wrap">
                                     <FontAwesomeIcon icon={faStar}  color="#A02279"/> 
                                     <FontAwesomeIcon icon={faStar}  color="#A02279"/> 
                                     <FontAwesomeIcon icon={faStar}  color="#A02279"/> 
@@ -59,6 +59,7 @@ function Advent() {
                     )
                 }
             </main>
+
 
         </>
     );

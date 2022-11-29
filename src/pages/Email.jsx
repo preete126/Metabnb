@@ -15,7 +15,7 @@ function Email() {
                     <div className='tw-pt-8  tw-font-semibold tw-text-6xl max-[1030px]:tw-text-5xl  tw-text-zinc-700 max-[915px]:tw-text-4xl max-[915px]:tw-pr-16 max-md:tw-text-6xl max-md:tw-pr-0 ' style={{ lineHeight: "80px" }}>
                         Rent a <span className='text-primary ' >Place</span> away from <span className='text-primary' >Home</span> in the <span className='text-primary' >Metaverse</span>
                     </div>
-                    <div className=' tw-pt-8  tw-pr-28 tw-text-2xl max-[1030px]:tw-text-xl max-[1030px]:tw-pr-10' style={{ fontFamily: "sans-serif" }} >We provide you  access to luxury and affordable houses in the metaverse, get a chance to turn your imagination into reallity at your comfort zone </div>
+                    <div className=' tw-pt-8  tw-pr-28 tw-text-2xl max-[1030px]:tw-text-xl max-[1030px]:tw-pr-10' style={{ fontFamily: "sans-serif" }} >We provide you  access to luxury and affordable houses in the metaverse, get a chance to turn your imagination into reality at your comfort zone </div>
                     <form action="" className='tw-pt-12 d-flex'>
                         <input className=' border border-2 form-control rounded-0 p-3 rounded-start  ' type="search" placeholder='search for location' style={{ width: "50%" }} />
                         <button className='btn rounded-end rounded-0 p-2 tw-text-center btn-primary tw-w-56 max-[1030px]:tw-w-48 max-[460px]:tw-w-44' >Search</button>

@@ -5,7 +5,7 @@ import img3 from "../assets/U.jpg"
 function Nfts() {
     return (
         <>
-            <section className="bg-primary tw-px-12 max-[973px]:tw-px-6  tw-flex gap-5 icons max-[769px]:tw-flex-col " style={{paddingTop:"80px",paddingBottom:"120px"}}>
+            <section className="bg-primary tw-px-12 max-[973px]:tw-px-6  tw-flex gap-5 icons max-[769px]:tw-flex-col sect " style={{paddingTop:"80px",paddingBottom:"120px"}}>
                 <main className="pt-5 text-white w-75 wid" style={{ fontFamily: "Verdana, Geneva, Tahoma, sans-serif" }}>
                     <div className="mt-5 tw-text-5xl tw-font-semibold max-[930px]:tw-text-4xl">Metabnb NFTs</div>
                     <div className="py-5 tw-text-lg tw-mr-28 max-[1030px]:tw-mr-2" style={{ lineHeight: "40px" }}>Discover our NFT gift cards collection. Loyal customers get amazing gift cards which are traded as NFTs. This NFTs gives our customers access to loads of our exclussive services.</div>

@@ -12,11 +12,11 @@ function Defaults({ children }) {
     return (
         <>
             <nav className='d-flex tw-justify-between navs pt-4 pb-4 tw-px-12 max-[973px]:tw-px-6 '>
-                <div className='d-flex tw-text-4xl tw-font-bold  meta'>
-                    <img src={home} width={50} alt="" /> Metabnb
+                <div>
+                   <Link to={"/"} className='d-flex tw-text-4xl tw-font-bold  meta'> <img src={home} width={50} alt="" /> Metabnb</Link>
                 </div>
                 <div className='d-flex gap-5 tw-text-xl Menu' >
-                    <a href='#' className='text-decoration-none text-dark'>Home</a >
+                    <Link  className='text-decoration-none text-dark'>Home</Link >
                     <Link to={"/places"} className='text-decoration-none text-dark'>Place to stay</Link >
                     <a href='#' className='text-decoration-none text-dark'>NFTs</a >
                     <a href='#' className='text-decoration-none text-dark'>Community</a >
@@ -46,7 +46,7 @@ function Defaults({ children }) {
             <footer className='tw-px-12 text-white tw-bg-black tw-py-20 max-[973px]:tw-px-6  '>
                 <main className='tw-flex tw-justify-between max-[670px]:tw-flex-wrap max-[670px]:tw-gap-5 '>
                     <div style={{ marginTop: "-0.7rem" }}>
-                        <div className='d-flex tw-text-4xl tw-font-bold nav '>
+                        <div className='d-flex tw-text-4xl tw-font-bold navs '>
                             <img src={home1} width={50} alt="" /> Metabnb
                         </div>
                         <div className='d-flex gap-5 icons py-5 mt-5'>

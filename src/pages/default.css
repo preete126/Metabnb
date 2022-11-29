@@ -2,7 +2,6 @@
     background-image: -webkit-repeating-linear-gradient(360deg, #BA3C77, #743DC5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  
 }
 .Menu{
     font-family: sans-serif;
@@ -13,7 +12,17 @@
 .icons{
     align-items: center;
 }
-
+.notFound{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/404Image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5); */
+    
+}
 
 @media (max-width:980px) {
     .sec{

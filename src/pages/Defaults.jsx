@@ -16,7 +16,7 @@ function Defaults({ children }) {
             <section className='tw-px-10 pt-2 max-[973px]:tw-px-3 '>
                 <nav className="navbar navbar-expand-lg  ">
                     <div className="container-fluid">
-                        <Link to={"/"} className=' navbar-brand  fs-1  tw-font-bold  meta'> <img src={home} width={50} className='d-inline-block align-text-top' alt="" /> Metabnb</Link>
+                        <Link to={"/"} className=' navbar-brand    tw-font-bold  meta'> <img src={home} width={50} className='d-inline-block align-text-bottom ' alt="" /><span className='tw-text-4xl'>Metabnb</span></Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -81,33 +81,33 @@ function Defaults({ children }) {
                         </div>
 
                     </div>
-                    <details>
-                        <summary className=' tw-font-semibold fs-5 '><a href="#" className='text-white text-decoration-none'>Community</a></summary>
+                    <div>
+                        <div className=' tw-font-semibold fs-5 '><a href="#" className='text-white text-decoration-none'>Community</a></div>
                         <div className='d-flex tw-flex-col mt-4' style={{ lineHeight: "35px" }} >
                             <a href='#' className='text-white text-decoration-none'>NFTs</a>
                             <a href='#' className='text-white text-decoration-none'>Token</a>
                             <a href='#' className='text-white text-decoration-none'>Landlords</a>
                             <a href='#' className='text-white text-decoration-none'>Discord</a>
                         </div>
-                    </details>
-                    <details>
-                        <summary className='tw-font-semibold fs-5 '><a href='#' className='text-white text-decoration-none'>Places</a></summary>
+                    </div>
+                    <div>
+                        <div className='tw-font-semibold fs-5 '><a href='#' className='text-white text-decoration-none'>Places</a></div>
                         <div className='d-flex tw-flex-col mt-4' style={{ lineHeight: "35px" }}>
                             <a href='#' className='text-white text-decoration-none'>Castle</a>
                             <a href='#' className='text-white text-decoration-none'>Farms</a>
                             <a href='#' className='text-white text-decoration-none'>Beach</a>
                             <a href='#' className='text-white text-decoration-none' >Learn more</a>
                         </div>
-                    </details>
-                    <details>
-                        <summary className='tw-font-semibold fs-5'><a href='#' className='text-white text-decoration-none'>About Us</a></summary>
+                    </div>
+                    <div>
+                        <div className='tw-font-semibold fs-5'><a href='#' className='text-white text-decoration-none'>About Us</a></div>
                         <div className='d-flex tw-flex-col mt-4' style={{ lineHeight: "35px" }}>
                             <a href='#' className='text-white text-decoration-none'>Roadmaps</a>
                             <a href='#' className='text-white text-decoration-none'>Creators</a>
                             <a href='#' className='text-white text-decoration-none'>Career</a>
                             <a href='#' className='text-white text-decoration-none' >Contact Us</a>
                         </div>
-                    </details>
+                    </div>
                 </main>
                 <div className='tw-text-xs ' style={{ marginTop: "1rem" }}>© 2022 Metabnb. Coded by Ismail Mubarokah</div>
 

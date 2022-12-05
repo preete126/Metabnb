@@ -1,5 +1,5 @@
-import Defaults from "./pages/Defaults";
-import Houses from "./pages/places_Array";
+import Defaults from "./components/Defaults";
+import Houses from "./components/places_Array";
 
 function Places() {
     return ( 

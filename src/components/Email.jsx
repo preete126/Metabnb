@@ -1,10 +1,10 @@
-import Image1 from '../assets/1.jpg'
-import Image2 from '../assets/2.jpg'
-import Image3 from '../assets/4.jpg'
-import Image4 from '../assets/7.jpg'
-import token from '../assets/token (2).png'
-import mask from '../assets/mask.png'
-import sea from '../assets/sea.png'
+import Image1 from '../assets/images/1.jpg'
+import Image2 from '../assets/images/2.jpg'
+import Image3 from '../assets/images/4.jpg'
+import Image4 from '../assets/images/7.jpg'
+import token from '../assets/images/token (2).png'
+import mask from '../assets/images/mask.png'
+import sea from '../assets/images/sea.png'
 
 function Email() {
 

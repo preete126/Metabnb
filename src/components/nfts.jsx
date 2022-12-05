@@ -1,6 +1,6 @@
-import img1 from "../assets/5.jpg"
-import img2 from "../assets/S.jpg"
-import img3 from "../assets/U.jpg"
+import img1 from "../assets/images/5.jpg"
+import img2 from "../assets/images/S.jpg"
+import img3 from "../assets/images/U.jpg"
 
 function Nfts() {
     return (

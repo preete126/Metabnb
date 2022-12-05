@@ -1,4 +1,4 @@
-import location from "../assets/location.jpg"
+import location from "../assets/images/location.jpg"
 import Adventure from "./Adventure";
 import Advent from "./Advent_2";
 

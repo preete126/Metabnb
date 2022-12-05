@@ -1,11 +1,11 @@
-import home from '../assets/home.png'
-import home1 from '../assets/home (1).png'
-import './default.css'
-import face from '../assets/face.png'
-import metafox from '../assets/metafox.png'
-import wallet from '../assets/wallet.png'
-import twitter from '../assets/twitter.png'
-import instagram from '../assets/instagram.png'
+import home from '../assets/images/home.png'
+import home1 from '../assets/images/home (1).png'
+import '../assets/style/default.css'
+import face from '../assets/images/face.png'
+import metafox from '../assets/images/metafox.png'
+import wallet from '../assets/images/wallet.png'
+import twitter from '../assets/images/twitter.png'
+import instagram from '../assets/images/instagram.png'
 import { Link } from "react-router-dom"
 
 

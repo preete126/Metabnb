@@ -1,4 +1,4 @@
-import "./pages/default.css"
+import "../assets/style/default.css"
 import { Link } from "react-router-dom"
 function Page404() {
     return (<section className="notFound">

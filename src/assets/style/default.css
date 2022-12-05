@@ -72,6 +72,18 @@
         font-size: 8px !important;
     }
 }
+@media (max-width:670px) {
+    .foot{
+       align-items: center;
+       margin-top: 0rem !important;
+       
+    }
+    .social{
+        padding-left: 0% !important;
+        padding-bottom: 0% !important;
+        margin-top: -1.5rem !important;
+    }
+}
 @media (max-width:651px) {
     .Adv{
         width: 17.2rem !important;

@@ -69,11 +69,11 @@ function Defaults({ children }) {
             <div>{children}</div>
             <footer className='tw-px-12 text-white tw-bg-black tw-py-20 max-[973px]:tw-px-6  '>
                 <main className='tw-flex tw-justify-between max-[670px]:tw-flex-wrap max-[670px]:tw-gap-5 '>
-                    <div style={{ marginTop: "-0.7rem" }}>
-                        <div className='d-flex tw-text-4xl tw-font-bold navs '>
-                            <img src={home1} width={50} alt="" /> Metabnb
+                    <div className='max-[670px]:tw-flex max-[670px]:tw-gap-10 foot' style={{ marginTop: "-0.7rem" }}>
+                        <div className='d-flex tw-text-4xl  tw-font-bold navs '>
+                            <img src={home1} width={50} alt="" /> <span>Metabnb</span>
                         </div>
-                        <div className='d-flex gap-5 icons py-5 mt-5'>
+                        <div className='d-flex gap-5 icons py-5 mt-5 social'>
                             <div> <img src={face} width={35} alt="" /></div>
                             <div> <img src={instagram} width={23} alt="" /></div>
                             <div> <img src={twitter} width={23} alt="" /></div>

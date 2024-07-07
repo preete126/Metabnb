@@ -13,10 +13,10 @@ function Defaults({ children }) {
 
     return (
         <>
-            <section className='tw-px-10 pt-2 max-[973px]:tw-px-3 '>
-                <nav className="navbar navbar-expand-lg  ">
+            <section className='tw-px-10 pt-2 max-[973px]:tw-px-3 max-[415px]:tw-px-0'>
+                <nav className="navbar navbar-expand-lg ">
                     <div className="container-fluid">
-                        <Link to={"/"} className=' navbar-brand    tw-font-bold  meta'> <img src={home} width={50} className='d-inline-block align-text-bottom ' alt="" /><span className='tw-text-4xl'>Metabnb</span></Link>
+                        <Link to={"/"} className=' navbar-brand    tw-font-bold  meta'> <img src={home} width={50} className='d-inline-block align-text-bottom ' alt="" /><span className='tw-text-4xl max-[310px]:tw-text-3xl'>Metabnb</span></Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -37,7 +37,7 @@ function Defaults({ children }) {
                                 </li>
                             </ul>
                             <div className=' tw-text-base Menu'>
-                                <button className='btn btn-primary px-4 py-2' data-bs-toggle="modal" data-bs-target="#exampleModal">Connect wallet</button>
+                                <button className='btn btn-primary px-4 py-2 ' data-bs-toggle="modal" data-bs-target="#exampleModal">Connect wallet</button>
                                 <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div className="modal-dialog modal-dialog-centered">
                                         <div className="modal-content">
@@ -67,13 +67,13 @@ function Defaults({ children }) {
                 </nav>
             </section>
             <div>{children}</div>
-            <footer className='tw-px-12 text-white tw-bg-black tw-py-20 max-[973px]:tw-px-6  '>
+            <footer className='tw-px-12 text-white tw-bg-black tw-py-20 max-[973px]:tw-px-6 max-[415px]:tw-px-2 '>
                 <main className='tw-flex tw-justify-between max-[670px]:tw-flex-wrap max-[670px]:tw-gap-5 '>
-                    <div className='max-[670px]:tw-flex max-[670px]:tw-gap-10 foot' style={{ marginTop: "-0.7rem" }}>
+                    <div className=' tw-flex tw-flex-col tw-justify-between   foot' style={{ marginTop: "-1rem" }}>
                         <div className='d-flex tw-text-4xl  tw-font-bold navs '>
                             <img src={home1} width={50} alt="" /> <span>Metabnb</span>
                         </div>
-                        <div className='d-flex gap-5 icons py-5 mt-5 social'>
+                        <div className='d-flex gap-5 icons  social1'>
                             <div> <img src={face} width={35} alt="" /></div>
                             <div> <img src={instagram} width={23} alt="" /></div>
                             <div> <img src={twitter} width={23} alt="" /></div>
@@ -109,7 +109,13 @@ function Defaults({ children }) {
                         </div>
                     </div>
                 </main>
-                <div className='tw-text-xs ' style={{ marginTop: "1rem" }}>© 2022 Metabnb. Coded by Ismail Mubarokah</div>
+                <div className='  gap-5 my-3 tw-justify-center icons social2 d-none'>
+                    <div> <img src={face} width={35} alt="" /></div>
+                    <div> <img src={instagram} width={23} alt="" /></div>
+                    <div> <img src={twitter} width={23} alt="" /></div>
+
+                </div>
+                <div className='tw-text-xs text-center ' style={{ marginTop: "1.5rem" }}>© 2022 Metabnb. Coded by Ismail Mubarokah</div>
 
             </footer>
         </>
